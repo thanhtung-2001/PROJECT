@@ -7,23 +7,72 @@
     <link rel="stylesheet" href="libs/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/owl.theme.default.css">
-    <link rel="stylesheet" href="css/Nhakhoa.css">
     <link rel="stylesheet" href="libs/nivo-slider/nivo-slider.css">
+    <link rel="stylesheet" href="css/Nhakhoa.css">
 </head>
 <body>
+<div id="login">
+    <section class="col-md-12">
+        <div class="col-md-3">
+            <img src="imgs/logo.png" height="60" width="207"/>
+        </div>
+        <div class="col-md-4">
+            <form role="search" method="get" action="">
+                <input class="txt-search" type="text" placeholder="Tìm kiếm ..." value="" name="s" autocomplete="off">
+                <input type="submit" id="btnsearch" value="search">
+            </form>
+        </div>
+        <div class="col-md-1">
+            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal"
+               data-target="#myModal">
+                Đăng ký
+            </a>
+        </div>
+        <div class="col-md-1">
+            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal"
+               data-target="#myModal">
+                Đăng nhập
+            </a>
+        </div>
+    </section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Email.." class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password" placeholder="password.." class="form-control"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="body">
     <div class="top-menu">
         <div class="top1">
             <div class="topnav">
                 <ul id="menu-navigation" class="">
-                    <li id="" class=""><a href="">Trang chủ VietSing</a></li>
-                    <li id="" class=""><a href="">Nha khoa thẩm mỹ</a></li>
-                    <li id="" class=""><a href="">Nha khoa bệnh lý</a></li>
-                    <li id="" class=""><a href="">Bảng giá dịch vụ</a></li>
+                    <li id="" class=""><a href="Trangchu.html">Trang chủ VietSing</a></li>
+                    <li id="" class=""><a href="Bangiadichvu.html">Bảng giá dịch vụ</a></li>
                     <li id="" class=""><a href="">Kiến thức nha khoa</a></li>
-                    <li id="" class=""><a href="">Thư viện ảnh &amp; video</a></li>
-                    <li id="" class=""><a href="">Tin tức &amp; sự kiện</a></li>
-                    <li id="" class="Project/Lienhechungtoi.html"><a href="">Liên hệ chúng tôi</a></li>
+                    <li id="" class=""><a href="">Thư viện ảnh &amp; ideo</a></li>
+                    <li id="" class=""><a href="">Tin tức &amp; Sự kiện</a></li>
+                    <li id="" class=""><a href="Lienhechungtoi.html">Liên hệ chúng tôi</a></li>
                 </ul>
             </div>
         </div>
@@ -37,10 +86,10 @@
                     <section class="col-md-13" >
                         <div class=" theme-default">
                             <div id="slider" class="nivoSlider">
-                                <img src="imgs/download.jpg" height="500" width="700" data-thumb="images/download.jpg" alt="" />
-                                <img src="imgs/download (1).jpg" height="500" width="700" data-thumb="images/download (1).jpg" alt="" />
-                                <img src="imgs/images (1).jpg" height="500" width="700" data-thumb="images/images (1).jpg" alt="" />
-                                <img src="imgs/images (3).jpg" height="500" width="700" data-thumb="images/images (3).jpg" alt="" />
+                                <img src="imgs/images.jpg" height="370" width="" data-thumb="images/images.jpg" alt="" />
+                                <img src="imgs/r.png" height="370" width="" data-thumb="images/r.png" alt="" />
+                                <img src="imgs/m.webp" height="370" width="" data-thumb="images/m.webp" alt="" />
+                                <img src="imgs/u.png" height="370" width="" data-thumb="images/u.png" alt="" />
                             </div>
                         </div>
                     </section>
@@ -69,9 +118,6 @@
                             }
                         })
                     </script>
-                </div>
-                <div class="col-md-12" <span style="margin-top: -50px;">
-                    <h1 style="text-align: center;"><span style="color: #ff0000; font-size: 15px;"><strong>HỖ TRỢ TƯ VẤN : 0905.920.164</strong></span></h1>
                 </div>
             </div>
         </div>
