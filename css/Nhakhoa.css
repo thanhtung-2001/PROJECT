@@ -233,21 +233,6 @@ li {
      margin-bottom: 21.73913043px;
  }
 
-.vc_tta.vc_general .vc_tta-panels-container {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
-}
-.wpb-js-composer .vc_tta.vc_general .vc_tta-panels, .wpb-js-composer .vc_tta.vc_general .vc_tta-panels-container {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
-}
-
-.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title {
-    margin: 0;
-    line-height: 1;
-}
 .entry-content h4, .wp-editor h4 {
     font-size: 14px;
     margin-top: 10px;
@@ -262,11 +247,7 @@ li {
 .sidebar-container {
     margin-bottom: 30px;
 }
-.col-md-3 {
-    width: 25%;
-    float: right;
-    margin-top: 30px;
-}
+
 .widget {
     overflow: hidden;
     position: relative;
@@ -303,7 +284,6 @@ h2 {
 }
 #dich-vu-noi-bat{
     margin: auto;
-    box-shadow: 0px 5px 10px 0px;
     background: #fff;
 }
 figure {
@@ -312,13 +292,15 @@ figure {
     width: 13%
 }
 #dich-vu-noi-bat .col-md-9 {
-    width: 75%;
     background-color: #43abb7;
-    margin-top: 30px;
 }
 #dich-vu-noi-bat .col-md-9 .p{
     font-size: 14px;
 }
 .col-md-9{
     text-aglin: center;
+}
+#dich-vu-noi-bat{
+    width: 1130px;
+    height: 873px;
 }
