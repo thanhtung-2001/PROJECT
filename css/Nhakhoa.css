@@ -21,12 +21,11 @@
     margin-top: 15px;
 }
 .top-menu .topnav li {
-    display: inline-box;
-    border-right: 1px #379f5a solid;
-    height: 85px;
-    margin: 0;
-    padding: 0;
+
     float: left;
+    border-right: 1px #fafafa solid;
+    width: 18.15%;
+    height: 120px;
 }
 .top-menu{
     height: 120px;
@@ -43,21 +42,14 @@
     width: 1140px;
     font-family: 'UTMSwissCondensedBold';
 }
-ol, ul {
-    list-style: none;
-}
-.top-menu .topnav li {
-    border-right: 1px #fafafa solid;
-    width: 16.15%;
-    height: 120px;
-}
+
 .top-menu .topnav li a {
     display: block;
     padding: 25px 15px;
     color: #fff;
     text-align: center;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 35px;
     font-family: UTMSwissCondensed;
 }
 a {
@@ -302,5 +294,8 @@ figure {
 }
 #dich-vu-noi-bat{
     width: 1130px;
-    height: 873px;
+    height: 1000px;
+}
+#dich-vu-noi-bat .col-md-3 .p{
+     font-size: 14px;
 }
