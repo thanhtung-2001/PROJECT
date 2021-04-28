@@ -25,10 +25,10 @@
     float: left;
     border-right: 1px #fafafa solid;
     width: 18.15%;
-    height: 120px;
+    height: 50px;
 }
 .top-menu{
-    height: 120px;
+    height: 60px;
     background: #00adb5;
 }
 .top1{
@@ -40,16 +40,16 @@
 }
 .top-menu .topnav {
     width: 1140px;
-    font-family: 'UTMSwissCondensedBold';
+    font-family: Tahoma;
 }
 
 .top-menu .topnav li a {
     display: block;
-    padding: 25px 15px;
+    padding: 11px 15px;
     color: #fff;
     text-align: center;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     font-family: UTMSwissCondensed;
 }
 a {
@@ -147,7 +147,7 @@ ol, ul {
 }
 .footer ul li {
     float: left;
-    padding-right: 5px;
+    padding-right: 33px;
     padding-left: 5px;
 }
 #r-menu-f {
@@ -165,7 +165,7 @@ li {
     padding-left: 0px;
     padding-right: 23px;
     border-left: 1px solid #fff;
-    font-size: 14px;
+    font-size: 25px;
 }
 .main-content .thumb_video_wrapper {
     width: 220px;
@@ -298,4 +298,11 @@ figure {
 }
 #dich-vu-noi-bat .col-md-3 .p{
      font-size: 14px;
+}
+#footer map{
+    background-color: #4cae4c;
+    height: 80px;
+    margin-top: 0px;
+    text-align: center;
+    float: left;
 }
