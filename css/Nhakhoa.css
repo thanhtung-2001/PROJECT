@@ -67,12 +67,7 @@ body {
     line-height: 20px;
     font-family: Arial;
 }
-.div{
-    display: block
-}
-html, body {
-    height: 100%;
-}
+
 .main_content {
      float: left;
      width: 700px;
